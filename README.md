@@ -48,5 +48,40 @@ Create a small function that removes the “ID - ” part of these columns that 
 Task 2.4: 
 > Create the Data Model connecting all tables and using the Calendar table already set up in the pbix.
 
+## DAX calculations
 
-> > > > > > > > > > > > 
+Task 3.1:
+> Calculate Total Revenue in Sales table, using the Product’s Retail Price, and multiplying it by the Units.
+
+**Total Revenue = SUMX(Sales, Sales[Units] * RELATED(Product[Retail Price]))**
+
+Task 3.2:
+> Calculate Total Cost in Sales table, using the Product’s Standard Cost, and multiplying it by the Units.
+
+**Total Cost = SUMX(Sales, Sales[Units] * RELATED(Product[Standard Cost]))**
+
+Task 3.3:
+> Calculate Gross Profit in Sales: Total Revenue – Total Cost
+
+**Gross Profit = [Total Revenue] - [Total Cost]**
+
+Task 3.4:
+> Calculate a Gross profit MoM growth Change% measure that could benefit us in decision making.
+
+**MoM Growth = (Gross Profit[Current Month] - Gross Profit[Previous Month]) / Gross Profit[Previous Month]**
+
+Task 3.5:
+> Calculate a measure for AVG sales per day – this is the average sum of Total Revenue per day based on the Dates of actual Sales.
+
+**AVG Sales per Day = AVERAGEX(VALUES(Date[Date]), [Total Revenue])**
+
+Task 3.7: 
+> Breakdown Analysis by Product (drop or increase)
+Calculate the following time measures:
+-	This is QBR Report. So QoQ Growth is required.
+
+**QoQ Growth = (Gross Profit[Current Quarter] - Gross Profit[Previous Quarter]) / Gross Profit[Previous Quarter]**
+
+>	Use the measures and calculations to assemble a sales reports with different visuals to best show the Sales Insights in one page Dashboard. Feel free to use your imagination to best represent the data you have available.
+If you plot Month on x-axis, make sure the months are sorted from Jan-Dec.
+
