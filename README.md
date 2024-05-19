@@ -1,4 +1,4 @@
-# PowwrBI-Project
+# Sales Data PowerBI Project
 
 ## OBJECTIVE :
 
