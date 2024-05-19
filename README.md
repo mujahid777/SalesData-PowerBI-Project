@@ -31,7 +31,18 @@ Task 2.2:
 
 Task 2.3:
 > The Dimensional queries SalesRep and Sub Category need additional treatment. Some ID columns have the following format:
- 
+
+| SalesRepID  |
+| :---------- | 
+| ID-6        | 
+| ID-7        |
+| ID-5        |        
+| ID-3        | 
+| ID-1        | 
+| ID-1        |
+| ID-2        |
+| ID-4        |
+
 Create a small function that removes the “ID - ” part of these columns that you can invoke and reuse for these two queries to clean the IDs.
 
 Task 2.4: 
