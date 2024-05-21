@@ -1,4 +1,4 @@
-# Sales Data PowerBI Project
+# Sales Data Analysis PowerBI Project
 
 ## OBJECTIVE :
 
