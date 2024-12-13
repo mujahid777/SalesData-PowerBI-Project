@@ -91,7 +91,7 @@ If you plot Month on x-axis, make sure the months are sorted from Jan-Dec.
 
 ### Report :
 
-
+![report](https://github.com/mujahid777/SalesData-PowerBI-Project/blob/main/Sales%20Analysis%20report.png)
 
 # Insights :
 
