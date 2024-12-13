@@ -99,7 +99,6 @@ If you plot Month on x-axis, make sure the months are sorted from Jan-Dec.
 
 
 
-> February and November see significant declines in profit, indicating potential seasonal sales dips or operational inefficiencies during these months.This could suggest seasonal effects or lower sales performance.
-> The March to July period, with consistent growth and a peak in July (7.93M), highlights the strongest performance window.
-> The quick recovery in December suggests strong end-of-year sales efforts or holiday-related impacts.
+
+
 
