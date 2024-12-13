@@ -85,3 +85,21 @@ Calculate the following time measures:
 >	Use the measures and calculations to assemble a sales reports with different visuals to best show the Sales Insights in one page Dashboard. Feel free to use your imagination to best represent the data you have available.
 If you plot Month on x-axis, make sure the months are sorted from Jan-Dec.
 
+
+# Insights :
+
+#### 1.	January and February Drop:
+> Gross profit starts at 7.31M in January but drops to 6.48M in February, indicating a sharp decline in profit. This could suggest seasonal effects or lower sales performance.
+#### 2.	Recovery from March to July:
+> From March (7.33M), the gross profit exhibits a steady rise, peaking in July at 7.93M, suggesting strong mid-year performance.
+#### 3.	Post-July Decline:
+> After the July peak, the gross profit decreases to 7.23M in August and continues fluctuating around 7.18M in September.
+#### 4.	October Spike, November Dip, and December Recovery:
+> Gross profit climbs to 7.52M in October but dips sharply to 6.74M in November. However, it recovers in December, reaching 7.32M, potentially reflecting end-of-year seasonal trends.
+
+
+
+> February and November see significant declines in profit, indicating potential seasonal sales dips or operational inefficiencies during these months.This could suggest seasonal effects or lower sales performance.
+> The March to July period, with consistent growth and a peak in July (7.93M), highlights the strongest performance window.
+> The quick recovery in December suggests strong end-of-year sales efforts or holiday-related impacts.
+
